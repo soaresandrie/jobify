@@ -99,7 +99,7 @@ const init = async() => {
     const db = await dbConnection
     await db.run('create table if not exists categorias (id INTEGER PRIMARY KEY, categoria TEXT);')
     await db.run('create table if not exists vagas (id INTEGER PRIMARY KEY, categoria INTEGER, titulo TEXT, descricao TEXT);')
-    //const  categoria = 'Developer PHP'
+    //const  categoria = 'Marketing team'
     //await db.run(`insert into categorias(categoria) values('${ categoria }');`)
 
     //const  categoria = 'Analista Desenvolvedor C#'
