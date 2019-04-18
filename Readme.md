@@ -1,4 +1,4 @@
-<a href="#"><img src="./public/images/logo.png" alt="Jobify - by DevPleno"></a>
+<a href="https://jobify-git-master.negri.now.sh/"><img src="./public/images/logo.png" alt="Jobify - by DevPleno"></a>
 >We are Jobify - Join US!
 >This repo is a code-along project of the Fullstack Lab 2 Workshop, published by <a href='https://github.com/devpleno'>@devpleno</a>.
 >Most commits in this repository correspond to videos in the workshop.
@@ -38,6 +38,15 @@ Seu chefe quer que as atualizações aconteçam com segurança e rapidez, e te d
 execução do projeto.
 *** Baseado em uma história real. -->
 
+## Complexity of the project
+The project tends to be simple and with a two-day time limit for execution. The goal is simply to streamline updates of new positions on a company's static website securely and quickly.
+<!-- Complexidade do projeto
+O projeto tende a ser simples e com um tempo limite de dois dias para a execução. O objetivo é simplesmente agilizar as atualizações de novas vagas de um website estático de uma empresa de modo seguro e rápido. -->
+
+## Solution
+Given the timeout, the project does not use authentication. All changes are made internally and "pushed" to the repository. To make it more explicit, security is delegated to * Github *, and only writable users will be able to update.
+<!-- Visto o tempo limite, o projeto não utiliza autenticação. Todas as alterações são feitas internamente e “empurradas” ao repositório. Para deixar mais explícito, a segurança é delegada ao *Github*, e somente usuários com permissão de escrever poderão atualizar. -->
+
 ## Contributing
 Because this is a code-along project and the commits correspond to specific videos in the program, we will not accept pull requests.
 
@@ -46,26 +55,14 @@ If you feel that there is a major problem, please open a question to discuss the
  Como esse é um projeto de code-along e os commits correspondem a vídeos específicos no programa, não aceitaremos solicitações de pull.
 Se você sentir que há um grande problema, por favor, abra uma questão para discutir o problema e a resolução em potencial. -->
 
-## License
-This project is licensed under the MIT license.
-<!-- Este projeto está licenciado sob a licença MIT . -->
-
-### Complexity of the project
-The project tends to be simple and with a two-day time limit for execution. The goal is simply to streamline updates of new positions on a company's static website securely and quickly.
-<!-- Complexidade do projeto
-O projeto tende a ser simples e com um tempo limite de dois dias para a execução. O objetivo é simplesmente agilizar as atualizações de novas vagas de um website estático de uma empresa de modo seguro e rápido. -->
-
-### Solution
-Given the timeout, the project does not use authentication. All changes are made internally and "pushed" to the repository. To make it more explicit, security is delegated to * Github *, and only writable users will be able to update.
-<!-- Visto o tempo limite, o projeto não utiliza autenticação. Todas as alterações são feitas internamente e “empurradas” ao repositório. Para deixar mais explícito, a segurança é delegada ao *Github*, e somente usuários com permissão de escrever poderão atualizar. -->
-### Project setup
+## Project setup
  <li>Clone the project - https://github.com/soaresandrie/jobify.git</li>
  <li>Install the dependencies - yarn install</li>
  <li>Start the project - yarn start</li>
 
-### Access: 
-<a href='https://jobify-git-master.negri.now.sh/'>Jobify</a></p>
-<!-- Acessar Projeto -->
+## License
+This project is licensed under the MIT license.
+<!-- Este projeto está licenciado sob a licença MIT . -->
 
 
 
